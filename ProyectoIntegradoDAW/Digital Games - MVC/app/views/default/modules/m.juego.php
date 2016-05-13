@@ -1,6 +1,5 @@
 <div id="juegos">
-
-			
+		
 			<div id="precio">
 				
 				<img id="juego1" src="IMAGENES/steam.png">
@@ -55,6 +54,4 @@
 				</div>
 
 			</div>
-
-
-		</div>
+</div>

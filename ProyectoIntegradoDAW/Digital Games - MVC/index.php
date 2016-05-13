@@ -25,7 +25,7 @@
 	}
 	else if(!isset($_SESSION["nombreusuario"])){
 			$mvc->menuInicioSesion();
-	}
+	}/*
 	else if( isset($_POST['facultad']) && 
 			 isset($_POST['nombre']) &&
 			 isset($_POST['apellido1']) &&
@@ -35,7 +35,7 @@
 	}
 	else if(isset($_POST['facultad'])){
 			$mvc->buscar( $_POST['facultad']);
-	}
+	}*/
 	else{	
 		$mvc->principal();
 	}

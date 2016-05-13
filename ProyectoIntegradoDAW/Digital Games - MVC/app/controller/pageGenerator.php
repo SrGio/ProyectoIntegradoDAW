@@ -1,6 +1,5 @@
 <?php
 	function load_template($title='Sin Titulo'){
-
 		$pagina = load_page('app/views/default/page.php');
 		$pagina = replace_content('/\#TITULO\#/ms' ,$title , $pagina);	
 		return $pagina;

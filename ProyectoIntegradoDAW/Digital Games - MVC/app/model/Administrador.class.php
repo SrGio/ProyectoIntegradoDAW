@@ -20,7 +20,7 @@ class Administrador extends Juego{
 		    		$v3=($decodes->{"$i"}->{'owners'});//Recoge el nº de porpietarios
 		    		$v4=($decodes->{"$i"}->{'developer'});//Recoge el desarrollador
 		    		//Con siguiente sentencia se introducen los datos en la tabla correspondiente
-		    		$sentencia="INSERT INTO $tabla (id,nombre,propietarios,desarrollador) VALUES ($v1,'$v2',$v3,'$v4')";
+		    		$sentencia="INSERT INTO $tabla (Id_Juego,Nombre,Desarrollador,Numero_Propietarios) VALUES ($v1,'$v2','$v4',$v3)";
 					if($objeto->query($sentencia)){
 						echo "Juego $v1 insertado";	
 					}else{

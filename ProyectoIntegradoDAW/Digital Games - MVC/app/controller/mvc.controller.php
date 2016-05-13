@@ -18,8 +18,7 @@ class mvc_controller {
 
 
 
-   function actualizar($nombre, $apellido1, $apellido2, $dni, $facultad)
-   {
+   function actualizar($nombre, $apellido1, $apellido2, $dni, $facultad){
 			
 		view_page($pagina);
    }
