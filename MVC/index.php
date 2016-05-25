@@ -7,6 +7,7 @@
 	$mvc = new mvc_controller();
 
 	/*
+	//Comprobar Captcha en el formulario de registro
 	// tu clave secreta
 	$secret = "6Ldk3SATAAAAAFG8sP8PKskk4aC0SPJ5DpvEk-p8";
 	 
@@ -49,12 +50,6 @@
 	else if( $_GET['action'] == 'juego' ){
 			$mvc->paginaJuego();
 	}
-	/*else if(isset($_SESSION["nombreusuario"])&&($_SESSION["nombreusuario"])!=""){
-			$mvc->menuPerfil();
-	}
-	else if(!isset($_SESSION["nombreusuario"])){
-			$mvc->menuInicioSesion();
-	*/
 	else{	
 		$mvc->principal();
 	}
